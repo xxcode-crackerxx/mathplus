@@ -1,6 +1,6 @@
 # Mathplus Library
 
-A Lightweight C math utility library.
+a simple yet usefull C library for extra functions
 
 ## Project Structure
 
@@ -13,3 +13,4 @@ To build and install the library to `/usr/local/lib` and `/usr/local/include`:
 
 ```bash
 sudo make install
+
