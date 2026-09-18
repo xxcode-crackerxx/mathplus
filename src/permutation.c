@@ -1,6 +1,6 @@
 #include "mathplus.h"
 int nPr (float n, float r )
 {
-    float nPr = factorial(n)/factorial(n-r);
-    return nPr;
+    if (r > n || n < 0 || r < 0) return 0;
+    return factorial(n)/factorial(n-r);
 }
