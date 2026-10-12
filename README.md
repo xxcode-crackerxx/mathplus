@@ -14,3 +14,7 @@ To build and install the library to `/usr/local/lib` and `/usr/local/include`:
 ```bash
 sudo make install
 
+then clear using
+
+```bash
+sudo make clean
