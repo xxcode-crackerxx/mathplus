@@ -1,6 +1,6 @@
 # Mathplus
 
-A simple C library for mathematics and sorting functions.
+A simple C library for mathematics, sorting and various algorithms functions functions.
 
 ## Table of Contents
 - [Installation](#installation)
