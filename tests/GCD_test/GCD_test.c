@@ -11,6 +11,6 @@ int main(void)
     }
     else
     {
-        printf("the GCD of %i and %i is %i", x, y, gcd);
+        printf("the GCD of %i and %i is %i\n", x, y, gcd);
     }
 }

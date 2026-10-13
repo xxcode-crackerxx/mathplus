@@ -57,10 +57,7 @@ sudo rm -f /usr/local/include/mathplus.h /usr/local/lib/libmathplus.a
 
 ## To-Do List
 
-  * change mathplus.c to factorial.c
   * add combination.c with a combination function
-  * make algorithms.c and add
-  * euclidean algorithm
   * bubble-sort
   * quick-sort(i know it is included in stdlib.h ,but let me have it)
   * selection-sort
