@@ -1,23 +1,15 @@
 int GCD(int a, int b)
 {
-    int big; //for the bigger value
-    int sma; //for the smallest value
-    if (a == b){ return -1;}
-    if ( a > b)
+    if (a == b)
     {
-        big = a;
-        sma = b;
+        return -1;
     }
-    else if (b > a)
+    while (b != 0)
     {
-        big = b;
-        sma = a;
+        int temp = b;
+        b = a % b;
+        a = temp;
     }
-    while (big != 0)
-    {
-        int temp = big;
-        big = big % sma;
-        sma = temp;
-    }
-    return sma;
+
+    return a;
 }
