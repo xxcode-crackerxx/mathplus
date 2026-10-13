@@ -19,5 +19,5 @@ int GCD(int a, int b)
         big = big % sma;
         sma = temp;
     }
-    return a;
+    return sma;
 }
